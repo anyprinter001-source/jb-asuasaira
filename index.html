@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saira Veronica Asua | Tecnología con alma</title>
+    <meta name="description" content="Desarrolladora de software e investigadora, uniendo tecnología con impacto humano y social.">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+            --accent-color: #FF6F61;
+            --background-color: #FDFBF7;
+            --text-color: #2D3436;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--background-color); color: var(--text-color); line-height: 1.6; }
+        header { position: sticky; top: 0; background: rgba(253, 251, 247, 0.95); padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; z-index: 1000; border-bottom: 1px solid #eee; }
+        nav a { margin-left: 20px; text-decoration: none; color: var(--text-color); font-weight: 600; font-size: 0.9rem; }
+        nav a:hover { color: var(--primary-color); }
+        section { padding: 80px 5%; max-width: 1000px; margin: auto; }
+        .hero { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; }
+        .profile-img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary-color); }
+        h1 { font-size: 2.5rem; color: var(--text-color); font-weight: 800; }
+        .btn { display: inline-block; padding: 12px 25px; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; margin-top: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: var(--primary-color); margin-bottom: 10px; }
+        .tag { font-size: 0.8rem; font-weight: 800; color: var(--accent-color); text-transform: uppercase; }
+        footer { text-align: center; padding: 40px; border-top: 1px solid #eee; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <strong>Saira V. Asua</strong>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#blog">Blog</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <img src="https://raw.githubusercontent.com/anyprinter001-source/jb-asuasaira/main/assets/profile.jpg" alt="Saira Veronica Asua" class="profile-img">
+            <h1>Tecnología con alma: programando futuros que cuidan nuestra tierra y a nuestra gente.</h1>
+            <p>Soy desarrolladora e investigadora. Transformo líneas de código en puentes sociales, conectando la potencia de la IA con la sensibilidad del territorio.</p>
+            <a href="#proyectos" class="btn">Conozcamos nuestros proyectos</a>
+            <div style="margin-top: 40px; text-align: left;">
+                <p>Desde el corazón de Alta Gracia, mi brújula siempre ha apuntado al impacto real. Mi trayectoria en el trabajo comunitario me enseñó que las soluciones más brillantes no se escriben en un escritorio, sino que nacen de la escucha atenta, la empatía y un respeto profundo por el territorio que habitamos.</p>
+                <p>Hoy, esa vocación se expande hacia las fronteras de la Inteligencia Artificial y el desarrollo de software. Me defino como una exploradora constante: mi trabajo no se limita a compilar código, sino a traducir herramientas digitales complejas en soluciones humanas, creativas y, sobre todo, accesibles para quienes más las necesitan.</p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <div class="grid" style="margin-top: 30px;">
+                <div class="card"><span class="tag">Ciencia fundamental aplicada</span><h3>AlterMundi & HIT</h3><p>Desarrollo tecnológico para la investigación de la Harmonic Information Theory.</p></div>
+                <div class="card"><span class="tag">IA escalable</span><h3>Phideus</h3><p>Inteligencia artificial de proporciones diseñada para entornos diversos.</p></div>
+                <div class="card"><span class="tag">Tecnología de vanguardia</span><h3>SAI (Sistema de Alerta de Incendios)</h3><p>Alerta temprana mediante protocolo GEAS y sensores con IA.</p></div>
+                <div class="card"><span class="tag">Factor humano</span><h3>HarmonicBeacon</h3><p>Acompañamiento en la dimensión humana de la investigación HIT.</p></div>
+                <div class="card"><span class="tag">Soberanía digital</span><h3>ilPostino_bot</h3><p>Gestiona tu identidad digital directamente desde Telegram.</p></div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Últimas entradas</h2>
+            <div class="grid" style="margin-top: 30px;">
+                <div class="card"><h3>Bienvenidos a mi bitácora</h3><p>Una breve introducción sobre quién soy, de dónde vengo...</p><br><small>24 de Mayo, 2024</small></div>
+                <div class="card"><h3>Protegiendo el monte con SAI</h3><p>Cómo el sistema de alerta de incendios está salvando nuestra naturaleza.</p><br><small>24 de Mayo, 2024</small></div>
+                <div class="card"><h3>La filosofía del desarrollo humano</h3><p>Reflexiones sobre el trabajo de Harmonic Information Theory.</p><br><small>24 de Mayo, 2024</small></div>
+                <div class="card"><h3>Tomando las riendas de tu identidad</h3><p>Te presento mi último proyecto: un bot de Telegram...</p><br><small>24 de Mayo, 2024</small></div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Email: asuasaira@gmail.com</p>
+            <div style="margin-top: 20px;">
+                <a href="https://www.instagram.com/sai.amapola/">Instagram</a> | 
+                <a href="https://x.com/sairaasua">X</a> | 
+                <a href="https://www.linkedin.com/in/saira-asua-0a85b7389/">LinkedIn</a> | 
+                <a href="https://github.com/SairaAsua">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Saira Veronica Asua</p>
+        <p>Este sitio fue creado con <a href="https://anyprinter001-source.github.io">Il Postino Bot</a>.</p>
+        <p>Una casa digital viva, armada desde conversación.</p>
+        <p><a href="https://cafecito.app/ilpostino">☕ Invitame un café</a></p>
+    </footer>
+</body>
+</html>
