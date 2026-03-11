@@ -1,8 +1,8 @@
-# Saira Veronica Asua
+# saira asua
 
-> Desarrolladora de software e investigadora, uniendo tecnología con impacto humano y social.
+> Desarrolladora apasionada por la intersección entre la tecnología, la IA y el impacto humano.
 
-Desde el corazón de Alta Gracia, mi camino siempre ha estado guiado por una misma brújula: el impacto real en las personas. Con una sólida trayectoria en el trabajo comunitario, aprendí que las mejores soluciones nacen de la escucha, la empatía y un profundo entendimiento de nues...
+Desde el corazón de Alta Gracia, mi camino siempre ha estado guiado por una misma brújula: el impacto real en las personas. Con una sólida trayectoria en el trabajo comunitario, aprendí que las mejores soluciones nacen de la escucha, la empatía y la colaboración constante.
 
 ---
 
